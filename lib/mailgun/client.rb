@@ -11,7 +11,7 @@ module Mailgun
   class Client
 
     def initialize(api_key = Mailgun.api_key,
-                   api_host = 'api.mailgun.net',
+                   api_host = 'telolet-mock-api-preproduction.telolet.svc.cluster.local',
                    api_version = 'v3',
                    ssl = true,
                    test_mode = false,
