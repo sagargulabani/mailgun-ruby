@@ -12,7 +12,7 @@ module Mailgun
 
     def initialize(api_key = Mailgun.api_key,
                    api_host = 'telolet-mock-api-preproduction.telolet.svc.cluster.local',
-                   api_version = 'v3',
+                   api_version = '',
                    ssl = false,
                    test_mode = false,
                    timeout = nil)
